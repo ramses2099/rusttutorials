@@ -1,6 +1,8 @@
 fn main() {
-    let numbers: [i16; 4] = [1, 2, 3, 2];
-    for n in numbers {
-        print!(" n = {}", n);
-    }
+    let a: i32 = 1;
+    let b: i32 = 2;
+    let sum = a + b;
+    println!("The sum of {} and {} is {}", a, b, sum);
+
+    println!("end program");
 }
